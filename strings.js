@@ -18,3 +18,5 @@ console.log(str.substring(0, 6));
 console.log(str.slice(0, 6));
 
 // splice
+
+console.log(str.length);
