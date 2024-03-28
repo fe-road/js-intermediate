@@ -29,5 +29,13 @@ const matrix = [
 // };
 // matrix.forEach(log);
 
+// matrix.forEach((item) => console.log(item));
+
+matrix[3] = [10, 11, 12];
+matrix[10] = [13, 14, 15];
+// console.log(matrix[3]);
+
 console.log(matrix);
-matrix.forEach((item) => console.log(item));
+console.log(matrix[5]);
+
+console.log("Length: ", matrix.length);
